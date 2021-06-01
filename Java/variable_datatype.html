@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CsMentor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bd-dark">
+        <a href="#" class="navbar-brand fw-bold">
+            <img src="Image\loogo4.png" alt="" width="45" height="40" class="d-inline-block align-top"/>
+            <span class="brand-name">CsMentor</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  text-center">
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="home" href="#" role="button">Home</a>
+                </li>
+                <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link dropdown-toggle btn btn-outline-none" type="button" class="btn btn-outline-none" id="navbtn" href="#" role="button" data-bs-toggle="dropdown">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu megamenu" id="coursesmenu" role="menu">
+                        <div class="row g-3">
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Java Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="introduction-to-java.html"><span>Core Java</span></a></li>
+                                        <li><a href="#"><span>JSP</span></a></li>
+                                        <li><a href="#"><span>JDBC</span></a></li>
+                                        <li><a href="#"><span>Servlet</span></a></li>
+                                        <li><a href="#"><span>Swing</span></a></li>
+                                        <li><a href="#"><span>JavaFX</span></a></li>
+                                        <li><a href="#"><span>Spring</span></a></li>
+                                        <li><a href="#"><span>Hibernate</span></a></li>
+                                        <li><a href="#"><span>Maven</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Data Science & ML</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>Python</span></a></li>
+                                        <li><a href="#"><span>Pandas</span></a></li>
+                                        <li><a href="#"><span>NumPy</span></a></li>
+                                        <li><a href="#"><span>EDA</span></a></li>
+                                        <li><a href="#"><span>Statistics</span></a></li>
+                                        <li><a href="#"><span>Machine Learning</span></a></li>
+                                        <li><a href="#"><span>NLP</span></a></li>
+                                        <li><a href="#"><span>Deep Learning</span></a></li>
+                                        <li><a href="#"><span>Reinforcement Learning</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Web Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>HTML5</span></a></li>
+                                        <li><a href="#"><span>CSS3</span></a></li>
+                                        <li><a href="#"><span>Bootstrap</span></a></li>
+                                        <li><a href="#"><span>JavaScript</span></a></li>
+                                        <li><a href="#"><span>Jquery</span></a></li>
+                                        <li><a href="#"><span>PHP</span></a></li>
+                                        <li><a href="#"><span>Node Js</span></a></li>
+                                        <li><a href="#"><span>Angular</span></a></li>
+                                        <li><a href="#"><span>React</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Other Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>C Programming</span></a></li>
+                                        <li><a href="#"><span>C#</span></a></li>
+                                        <li><a href="#"><span>C++</span></a></li>
+                                        <li><a href="#"><span>ASP.NET</span></a></li>
+                                        <li><a href="#"><span>SQL Server</span></a></li>
+                                        <li><a href="#"><span>MySql</span></a></li>
+                                        <li><a href="#"><span>MongoDB</span></a></li>
+                                        <li><a href="#"><span>MS Azure</span></a></li>
+                                        <li><a href="#"><span>Django</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                        </div><!-- end row --> 
+                    </div> <!-- dropdown-mega-menu.// -->
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Internship</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Career</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">About Us</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Login</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" id="searchbtn" type="submit">Search</button>
+              </form>
+        </div>
+    </nav>
+    </div>
+
+    <!-------------------------------------------Navbar Ebded-------------------------------------------->
+    
+    
+    <div class="sidemenu">
+        <ul>
+        <li><a class="active" href="#home">Introduction to Java</a></li>
+        <li><a href="#news">Variables & Data Type</a></li>
+        <li><a href="#contact">Java Installation</a></li>
+        <li><a href="#about">HTML Attributes</a></li>
+        <li><a href="#news">HTML Comment</a></li>
+        <li><a href="#news">HTML Element</a></li>
+        <li><a href="#contact">HTML Heading</a></li>
+        <li><a href="#about">HTML Paragraph</a></li>
+       
+        <li><a href="#news">HTML Formatting</a></li>
+        <li><a href="#contact">HTML Phrage Tags</a></li>
+        <li><a href="#about">HTML Anchor Tag</a></li>
+        <li><a href="#news">HTML Background </a></li>
+        <li><a href="#news">HTML Color</a></li>
+        <li><a href="#news">HTML Fonts</a></li>
+        <li><a href="#news">HTML Image</a></li>
+        <li><a href="#contact">HTML Table</a></li>
+        <li><a href="#about">HTML List</a></li>
+        <li><a href="#news">HTML Style Sheet</a></li>
+        <li><a href="#news">HTML Forms</a></li>
+        <li><a href="#contact">HTML Classes</a></li>
+        <li><a href="#about">HTML Id</a></li>
+        <li><a href="#news">HTML JavaScript</a></li>
+        <li><a href="#news">HTML Iframe</Iframe></a></li>
+        </ul>
+    </div>
+  <!--Side Nav bar end-->
+  
+    <div class=" content"> 
+        <h3>What is a Variable in Java?</h3><br>
+        <p><b>Variable in Java</b> is a data container that stores the data values during java program execution.</p>
+        <p>Every Variable is assigned data which designates the type and quantity of value it can hold.</p>
+        <p>Variable is a memory location name of the data. The Java variable have mainly three: Local, Instance and Static.</p>
+        <p>In order to use variable in a program, you need to perform <b>Two</b> stapes: </p>
+        <ol>
+            <li><b>Variable Declaration</b></li>
+            <li><b>Variable Initialization</b></li>
+        </ol> 
+        <h3>Variable Declaration:</h3><br>
+        <p>To declare a variable, you must specify the data type & give the variable a unique name.</p>
+        <h5><code style="font-weight: bold;">int</code> count;</h5>
+        <p>So here, <code class="data-type">int</code> is a Integer data type and count is the name or Variable.</p>
+        <p>Variable is a type of container where you can put your data according to the data type.</p>
+
+        <div class="code-body table">
+            <p><code class="data-type">int</code> num1; <span class="comment"> //num1 is a name or variable which can take Integer type data</span></p>
+            <p><code class="data-type">float</code> num2; <span class="comment"> //num2 is a name or variable which can take Floating type data</span></p>
+            <p><code class="data-type">double</code> num3; <span class="comment"> //num3 is a name or variable which can take Double type data</span></p>
+            <p><code class="data-type">char</code> num4; <span class="comment"> //num4 is a name or variable which can take Character type data</span></p>
+        </div>
+        <h3>Variable Initialization:</h3><br>
+        <p>To initialize a variable, you must assign it a valid value as per the data type.</p>
+        <h5><code style="font-weight: bold;">int</code> count = 50;</h5>
+        <p>So here, <code class="data-type">int</code> is a Integer data type, <b>count</b> is the name or Variable and <b>50</b> is the value of it.</p>
+
+        <div class="code-body table">
+            <p><code class="data-type">int</code> num1 = 100; <span class="comment"> //Here num1 is a variable where 100 is a Integer type data</span></p>
+            <p><code class="data-type">float</code> num2 = 100.50; <span class="comment"> //Here num2 is a variable where 100.50 is a Floating type data</span></p>
+            <p><code class="data-type">double</code> num3 = 238474; <span class="comment"> //Here num3 is a variable where 238474 is a Double type data</span></p>
+            <p><code class="data-type">char</code> num4 = 'C'; <span class="comment"> //Here num4 is a variable where 'C' is a Character type data</span></p>
+        </div>
+        <h3>Types of Variable</h3>
+        <p>In Java, there types of variable</p>
+        <ol>
+            <li><b>Local Variable</b></li>
+            <li><b>Instance Variable</b></li>
+            <li><b>Static Variable</b></li>
+        </ol>
+        <h6><b>1. Lacal Variable</b></h6>
+        <p>Local Variables are a variable that are declared inside the body of a method.</p>
+        <p>These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.</p>
+        <p>The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.</p>
+        <h6><b>2. Instance Variable</b></h6>
+        <p> Instance variables are non-static variables and are declared in a class outside any method, constructor or block.</p>
+        <p>As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.</p>
+        <p>Initilisation of Instance Variable is not Mandatory. Its default value is 0. Instance Variable can be accessed only by creating objects.</p>
+        <h6><b>3. Static Variable</b></h6>
+        <p>Static variables are also known as Class variables.</p>
+        <p>These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.</p>
+        <p>Static variables are created at the start of program execution and destroyed automatically when execution ends.</p>
+        <h5><b>Example:</b></h5>
+        <div class="code-body table">
+            <p>
+                <code>class</code> CsMentor { <br>
+                    &emsp;<code>static int</code> num1 = 10;<span class="comment">&emsp;//This is a Static variable</span> <br>
+                    &emsp;<code>int</code> num2 = 15;<span class="comment">&emsp;//This is an Instance Variable</span> <br>
+                    &emsp;<code>public void</code> method() { <br>
+                        &emsp;&emsp;<code>int </code>num3 = 20;<span class="comment">&emsp;//This ia a Local Variable</span><br>
+                        &emsp;&emsp;System.<code>out</code>.println("3rd number is: "+ num3); <br>
+                    &emsp;} <br>
+                    &emsp;<code>public static void </code>main(String[] args) {<br>
+                        &emsp;&emsp;CsMentor obj = <code>new</code> CsMentor();<span class="comment">&emsp;//Create an Object of CsMentor class</span> <br>
+                        &emsp;&emsp;<code>int</code> temp = obj.num2;<br>
+                        &emsp;&emsp;System.<code>out</code>.println(num1);<br>
+                        &emsp;&emsp;System.<code>out</code>.println(temp);<br>
+                        &emsp;&emsp;obj.method();<br>
+                    &emsp;} <br>
+                }
+            </p>
+        </div>
+        <h5><b>Output:</b></h5>
+        <div class="code-body table">
+            <p>10 <br>15 <br>3rd number is: 20</p>
+
+        </div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+<!----------------------Page Down Button---------------------------->
+
+        <div class="pagebtn">
+            <a href="introduction-to-java.html" class="previous round">&laquo;  Previous</a>
+            <a href="#" class="next round">Next  &raquo;</a>
+            
+        </div>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

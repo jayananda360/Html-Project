@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CsMentor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bd-dark">
+        <a href="#" class="navbar-brand fw-bold">
+            <img src="Image\loogo4.png" alt="" width="45" height="40" class="d-inline-block align-top"/>
+            <span class="brand-name">CsMentor</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  text-center">
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="home" href="#" role="button">Home</a>
+                </li>
+                <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link dropdown-toggle btn btn-outline-none" type="button" class="btn btn-outline-none" id="navbtn" href="#" role="button" data-bs-toggle="dropdown">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu megamenu" id="coursesmenu" role="menu">
+                        <div class="row g-3">
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Java Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>Core Java</span></a></li>
+                                        <li><a href="#"><span>JSP</span></a></li>
+                                        <li><a href="#"><span>JDBC</span></a></li>
+                                        <li><a href="#"><span>Servlet</span></a></li>
+                                        <li><a href="#"><span>Swing</span></a></li>
+                                        <li><a href="#"><span>JavaFX</span></a></li>
+                                        <li><a href="#"><span>Spring</span></a></li>
+                                        <li><a href="#"><span>Hibernate</span></a></li>
+                                        <li><a href="#"><span>Maven</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Data Science & ML</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>Python</span></a></li>
+                                        <li><a href="#"><span>Pandas</span></a></li>
+                                        <li><a href="#"><span>NumPy</span></a></li>
+                                        <li><a href="#"><span>EDA</span></a></li>
+                                        <li><a href="#"><span>Statistics</span></a></li>
+                                        <li><a href="#"><span>Machine Learning</span></a></li>
+                                        <li><a href="#"><span>NLP</span></a></li>
+                                        <li><a href="#"><span>Deep Learning</span></a></li>
+                                        <li><a href="#"><span>Reinforcement Learning</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Web Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>HTML5</span></a></li>
+                                        <li><a href="#"><span>CSS3</span></a></li>
+                                        <li><a href="#"><span>Bootstrap</span></a></li>
+                                        <li><a href="#"><span>JavaScript</span></a></li>
+                                        <li><a href="#"><span>Jquery</span></a></li>
+                                        <li><a href="#"><span>PHP</span></a></li>
+                                        <li><a href="#"><span>Node Js</span></a></li>
+                                        <li><a href="#"><span>Angular</span></a></li>
+                                        <li><a href="#"><span>React</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3 col-6">
+                                <div class="col-megamenu">
+                                    <h6 class="title">Other Technologies</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><span>C Programming</span></a></li>
+                                        <li><a href="#"><span>C#</span></a></li>
+                                        <li><a href="#"><span>C++</span></a></li>
+                                        <li><a href="#"><span>ASP.NET</span></a></li>
+                                        <li><a href="#"><span>SQL Server</span></a></li>
+                                        <li><a href="#"><span>MySql</span></a></li>
+                                        <li><a href="#"><span>MongoDB</span></a></li>
+                                        <li><a href="#"><span>MS Azure</span></a></li>
+                                        <li><a href="#"><span>Django</span></a></li>
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                        </div><!-- end row --> 
+                    </div> <!-- dropdown-mega-menu.// -->
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Internship</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Career</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">About Us</a>
+                </li>
+                <li>
+                    <a type="button" class="nav-link btn btn-outline-none" id="navbtn" href="#" role="button">Login</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" id="searchbtn" type="submit">Search</button>
+              </form>
+        </div>
+    </nav>
+    </div>
+
+    <!-------------------------------------------Navbar Ebded-------------------------------------------->
+    
+    
+    <div class="sidemenu">
+        <ul>
+        <li><a class="active" href="#home">Introduction to Java</a></li>
+        <li><a href="#news">Variables & Data Type</a></li>
+        <li><a href="#contact">Java Installation</a></li>
+        <li><a href="#about">HTML Attributes</a></li>
+        <li><a href="#news">HTML Comment</a></li>
+        <li><a href="#news">HTML Element</a></li>
+        <li><a href="#contact">HTML Heading</a></li>
+        <li><a href="#about">HTML Paragraph</a></li>
+       
+        <li><a href="#news">HTML Formatting</a></li>
+        <li><a href="#contact">HTML Phrage Tags</a></li>
+        <li><a href="#about">HTML Anchor Tag</a></li>
+        <li><a href="#news">HTML Background </a></li>
+        <li><a href="#news">HTML Color</a></li>
+        <li><a href="#news">HTML Fonts</a></li>
+        <li><a href="#news">HTML Image</a></li>
+        <li><a href="#contact">HTML Table</a></li>
+        <li><a href="#about">HTML List</a></li>
+        <li><a href="#news">HTML Style Sheet</a></li>
+        <li><a href="#news">HTML Forms</a></li>
+        <li><a href="#contact">HTML Classes</a></li>
+        <li><a href="#about">HTML Id</a></li>
+        <li><a href="#news">HTML JavaScript</a></li>
+        <li><a href="#news">HTML Iframe</Iframe></a></li>
+        </ul>
+    </div>
+  <!--Side Nav bar end-->
+  
+    <div class="content"> 
+        <h3>Introduction to Java Programming</h3><br>
+        <p>Java is one of the most popular programming languages. Released in <b>1995</b> and still widely used today.</p>
+        <p>Java programming language was originally developed by <b>Sun Microsystems</b> which was initiated by <b>James Gosling</b> and released as Java 1.0 in 1995.</p>
+        <p> Before Java, its name was <b>Oak</b>. Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java.</p>
+        <h3>What is Java?</h3><br>
+        <p>Java is a high-level, object-oriented, platform-independent programming language used to develop many applications, including software development, mobile applications, web applications and many more.</p>
+        <h3>Java Features</h3><br>
+        <h6><li><b>Simple</b></li></h6>
+        <p>Java is easy to learn and its sysntax is quite simple, clean and easy to understand. The confusing and ambiguous concepts of C++ are either left out in Java or they have been re-implemented in a cleaner way</p>
+        <h6><li><b>Object Oriented</b></li></h6>
+        <p>Java is an Object Oriented Programming Language. Everything is performed using "Object". Java can be easily extended since it is based on the Object model.</p>
+        <h6><li><b>Multi-threaded</b></li></h6>
+        <p>Thread is nothing but a task in a process or program, so Multi-threading is a process of miltiple task running/executing at the same time.  This design feature allows the developers to construct interactive applications that can run smoothly.</p>
+        <h6><li><b>High Performance</b></li></h6>
+        <p>Java is an interpreted language, it was designed to support <i>just-in-time</i> compliers, which dynamically compiled bytecodes to machine codes.</p>
+        <h6><li><b>Secure</b></li></h6>
+        <p>Java compiler transforms Java code into the byte code, and then the Java Virtual Machine (JVM) uses these byte codes.</p>
+        <h6><li><b>Robust</b></li></h6>
+        <p>Robust simply means strong. Java is robust because, Java checks the code during the compilation time and run time. It uses strong memory management.</p>
+        <h6><li><b>Portable</b></li></h6>
+        <p>The Java code is compiled by the compiler and converted into bytecode. This bytecode is a platform independent code because it can be executed on several platforms, that logic is, Write Once and Run Anywhere (WORA).</p>
+        <h6><li><b>Dynamic</b></li></h6>
+        <p>Java is considered dynamic because many objects are evaluated at run time and execution is carried out.</p>
+        <h6><li><b>Distributed</b></li></h6>
+        <p>Java uses RMI (Remote Method Invocation), EJB (Enterprise Java Beans) etc. for creating distributed applications, using this a program can call a method of another program running in some other computers in the network.</p>
+        <h3>Java Editions/Platform</h3><br>
+        <p>We have <b>four</b> type of editions in Java, they are:</p>
+        
+        <h6><b>1. Java SE (Java Standard Edition)</b></h6>       
+        <p>Java Platform, Standard Edition (Java SE) lets you develop and deploy Java applications on desktops and servers. Java offers the rich user interface, performance, versatility, portability, and security that today's applications require.</p>
+        <p>It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.</p>
+        
+        <h6><b>2. Java EE (Java Enterprise Edition)</b></h6>        
+        <p>It is an enterprise platform which is mainly used to develop web and enterprise applications. It is built on the top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.</p>
+        
+        <h6><b>3. Java ME (Java Micro Edition)</b></h6>        
+        <p>Java Platform, Micro Edition (Java ME) provides a robust, flexible environment for applications running on embedded and mobile devices in the Internet of Things: micro-controllers, sensors, gateways, mobile phones, personal digital assistants (PDAs), TV set-top boxes, printers and more.</p>
+        <p>Java ME includes flexible user interfaces, robust security, built-in network protocols, and support for networked and offline applications that can be downloaded dynamically.</p>
+        <p>Applications based on Java ME are portable across many devices, yet leverage each device's native capabilities.</p>
+        
+        <h6><b>4. JavaFX</b></h6>        
+        <p>JavaFX is a set of graphics and media packages that enables developers to design, create, test, debug, and deploy rich client applications that operate consistently across diverse platforms.</p>
+        <p>Written as a Java API, JavaFX application code can reference APIs from any Java library. For example, JavaFX applications can use Java API libraries to access native system capabilities and connect to server-based middleware applications.</p>
+
+        <h3>Java VS C++</h3><br>
+        <table class="table" style="background-color: rgb(236, 236, 236);">
+            <thead>
+              <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Java</th>
+                <th scope="col">C++</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Platform Independence</th>
+                <td>Java is platform-independent.
+                    Once compiled into byte code, it can be executed on any platform.</td>
+                <td>C++ is a platform dependent language.
+                    The source code written in C++ needs to be compiled on every platform.</td>
+              </tr>
+              <tr>
+                <th scope="row">Compiler and Interpreter</th>
+                <td>Java is a compiled as well as an interpreted language.
+                    The compiled output of a Java source code is a byte code which is platform-independent.</td>
+                <td>C++ is a compiled language.
+                    The source program written
+                    in C++ is compiled into an object code which can then be executed to produce an output.</td>
+              </tr>
+              <tr>
+                <th scope="row">Portability</th>
+                <td >Java, however, translates the code into byte code.
+                    This byte code is portable and can be executed on any platform.</td>
+                <td >C++ code is not portable.
+                    It must be compiled for each platform.</td>
+              </tr>
+              <tr>
+                <th scope="row">Memory Management</th>
+                <td>In Java the memory management is system-controlled.</td>
+                <td>Memory management in C++ is manual.
+                    We need to allocate/deallocate memory manually using the new/delete operators.</td>
+              </tr>
+              <tr>
+                <th scope="row">Multiple Inheritance</th>
+                <td>Java, supports only single inheritance.
+                    Effects of multiple inheritance can be achieved using the interfaces in Java.</td>
+                <td>C++ supports various types of inheritances including single and multiple inheritances.
+                    Although there are problems arising from multiple inheritances, C++ uses the virtual keyword to resolve the problems.</td>
+              </tr>
+              <tr>
+                <th scope="row">Overloading</th>
+                <td>In Java, only method overloading is allowed.
+                    It does not allow operator overloading.</td>
+                <td>In C++, methods and operators can be overloaded. This is static polymorphism.</td>
+              </tr>
+              <tr>
+                <th scope="row">Virtual Keyword</th>
+                <td>In Java, the virtual keyword is absent. However, in Java, all non-static methods by default can be overridden.
+                    Or in simple terms, all non-static methods in Java are virtual by default.</td>
+                <td>As a part of dynamic polymorphism, in C++, the virtual keyword is used with a function to indicate the function that can be overridden in the derived class. This way we can achieve polymorphism.</td>
+              </tr>
+              <tr>
+                <th scope="row">Pointers</th>
+                <td>Java has limited support for pointers.
+                    Initially, Java was completely without pointers but later versions started providing limited support for pointers.
+                    We cannot use pointers in Java as leisurely as we can use in C++.</td>
+                <td>C++ is all about pointers.
+                    As seen in tutorials earlier, C++ has strong support for pointers and we can do a lot of useful programming using pointers.</td>
+              </tr>
+              <tr>
+                <th scope="row">Thread Support</th>
+                <td>Java is in-built thread support with a class “thread”. We can inherit the thread class and then override the run method.</td>
+                <td>C++ doesn’t have in-built thread support. It mostly relies on third-party threading libraries.</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3><b>Demo Java Program</b></h3><br>
+          <p>Hello World program is a starting program for every new programmer, So what are you waiting for try it.</p>
+        <div class="code-body table">
+            <p><code>class</code> CsMentor {<br>
+                &emsp;<code>public static void</code> main(String[] args) {<br>
+                    &emsp;&emsp;System.<code>out</code>.println("Hello World!");<br>
+                &emsp;} <br>
+            }
+            </p>
+        </div>
+        <h5><b>Output:</b></h5>
+        <div class="code-body table">
+            <p>Hello World!</p>
+        </div>
+
+
+
+
+
+
+<!----------------------Page Down Button---------------------------->
+
+        <div class="pagebtn">
+
+            
+            <a href="variable_datatype.html" class="next round">Next  &raquo;</a>
+            
+        </div>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

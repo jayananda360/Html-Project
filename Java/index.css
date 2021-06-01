@@ -1,0 +1,225 @@
+.container-fluid{
+    background-image: linear-gradient(to right, rgb(61, 112, 253), rgb(176, 95, 230) , rgb(255, 107, 62) );
+}
+#search{
+    background-color: transparent;
+    border: 1px solid gold;
+    color: white;
+}
+#searchbtn{
+    border: 2px solid gold;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+}
+#searchbtn:hover{
+    color: black;
+}
+#navbtn{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#navbtn:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(3, 205, 255);
+    transition: 0.6s ease;
+}
+#home{
+    background-color: rgb(44, 44, 44);
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+#coursesmenu{
+    background: linear-gradient( to right bottom,#2b74fc, #ff4d07);
+}
+.col-megamenu a:link{
+    text-decoration: none;
+}
+.col-megamenu a {
+    display: inline-block;
+    
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .col-megamenu a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .col-megamenu a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .col-megamenu a:hover span {
+    padding-right: 25px;
+    color: black;
+    
+  }
+  
+  .col-megamenu a:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.title{
+    font-weight: bold;
+    size: 20px;
+}
+.carousel-inner img{
+    margin-top: 66px;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.data-type{
+  border: .5px solid rgb(180, 179, 179); 
+  font-weight: bold; 
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.code-body{
+  width: auto;
+  border: 1px solid rgb(194, 194, 194);
+  background-color: rgb(236, 236, 236);
+  border-left: 4px solid rgb(139, 139, 139);
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.code-body .comment{
+  color: rgb(5, 146, 0);
+}
+code {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 100%;
+	    margin-top:10px;
+	}
+}
+
+
+/*side Navbar*/
+.sidemenu{
+  padding-top: 66px;
+}
+.sidemenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidemenu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidemenu li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidemenu li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.content{
+  padding-top: 1%;
+  padding-left: 19%;
+  padding-right: 17%;
+}
+
+/*----------Page Down Button-----------*/
+.pagebtn{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.pagebtn a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+
+.pagebtn a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  margin-left: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: #04AA6D;
+  color: rgb(221, 221, 221);
+}
+
+.next {
+  position: relative;
+  margin-right: 30px;
+  float: right;
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #04AA6D;
+  color: rgb(221, 221, 221);
+}
+
+.round {
+  border-radius: 5px;
+}

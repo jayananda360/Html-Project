@@ -1,0 +1,351 @@
+.container-fluid{
+    background-image: linear-gradient(to right, rgb(61, 112, 253), rgb(176, 95, 230) , rgb(255, 107, 62) );
+}
+#search{
+    background-color: transparent;
+    border: 1px solid gold;
+    color: white;
+}
+#searchbtn{
+    border: 2px solid gold;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+}
+#searchbtn:hover{
+    color: black;
+}
+#navbtn{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#navbtn:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(1, 141, 255);
+    transition: 0.6s ease;
+}
+#home{
+    background-color: rgb(44, 44, 44);
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+#coursesmenu{
+    background: linear-gradient( to right bottom,#003eb1, #006492);
+}
+.col-megamenu a:link{
+    text-decoration: none;
+}
+.col-megamenu a {
+    display: inline-block;
+    
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .col-megamenu a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .col-megamenu a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .col-megamenu a:hover span {
+    padding-right: 25px;
+    color: black;
+    
+  }
+  
+  .col-megamenu a:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.title{
+    font-weight: bold;
+    size: 20px;
+}
+.carousel-inner img{
+    margin-top: 66px;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+#card-body{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card-title .card-name{
+    size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ff4343;
+    color: #037a17;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#card-body .card{
+    display: flex;
+    border: 2px solid rgb(255, 197, 5);
+    height: auto;
+    width: auto;
+} 
+#card-body .card-body{
+    text-align: center;
+    color: rgb(17, 17, 17);
+}
+#card-body .card-title{
+    font-weight: bold;
+}
+#card-body a:link{
+    text-decoration: none;
+    
+}
+#card-body .card:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+footer {
+    
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+   
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy .text-center{
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  .social-network ul{
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin-right: 2px;
+    padding-left: 0px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  .social-network a.icoYoutube:hover {
+    background-color: #e90000;
+  }
+  .social-network a.icoInstagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i ,
+  .social-network a.icoYoutube:hover i,
+  .social-network a.icoInstagram:hover i{
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Table Css Code*/
+  
